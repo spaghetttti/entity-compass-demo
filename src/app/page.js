@@ -1,4 +1,3 @@
-import SideDrawer from "@/components/SIdeDrawer.jsx";
 import {data} from "../utils/data.js";
 import { RenderChart } from "@/components/RenderChart.jsx";
 

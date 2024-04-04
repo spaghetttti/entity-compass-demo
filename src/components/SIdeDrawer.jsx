@@ -1,4 +1,4 @@
-export default function SideDrawer({ isOpen, onClose }) {
+export default function SideDrawer() {
     return (
       <div className={`fixed inset-y-0 right-0 w-64 bg-gray-900 z-50 ${isOpen ? 'block' : 'hidden'}`}>
         {/* Sidebar content */}
