@@ -8,7 +8,7 @@ export default function ChartItem(props) {
     //   // class="chart-item"
     //   // className="background-color: #fff; padding: 4px; margin: 2px; border: 2px solid #ddd;"
     // >
-    <>
+    <a href="/test">
       <text
         onClick={() => {}}
         className="selectable cursor-pointer"
@@ -27,7 +27,7 @@ export default function ChartItem(props) {
       >
         {n.id}
       </text>
-    </>
+    </a>
     // </div>
   );
 }
